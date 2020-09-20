@@ -13,8 +13,8 @@ int main() {
     for (i = 0; i < 10; i++) { 
     printf("Digite o número real: \n");
     scanf("%i", &numbers[i]);
+    numbers[i] = numbers[i] * numbers[i];
     }
-
 
     printf("Os números digitados foram: \n");
 
@@ -32,5 +32,7 @@ Planejamento da resolução:
 
 
 */
+
+
 
 

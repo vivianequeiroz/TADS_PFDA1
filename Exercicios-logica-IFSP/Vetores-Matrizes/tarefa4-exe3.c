@@ -7,18 +7,18 @@ int main() {
 
     setlocale (LC_ALL, "Portuguese");
 
-    int numbers[10], i;
+    int numbers[4], i;
 
 
-    for (i = 0; i < 10; i++) { 
+    for (i = 0; i < 4; i++) { 
     printf("Digite o número real: \n");
     scanf("%i", &numbers[i]);
+    numbers[i] = numbers[i] * numbers[i];
     }
 
 
-    printf("Os números digitados foram: \n");
 
-    for (i = 0; i < 10; i++) { 
+    for (i = 3; i > -1; i--) { 
     printf("%i \n", numbers[i]);
     }
 }
@@ -32,5 +32,7 @@ Planejamento da resolução:
 
 
 */
+
+
 
 
